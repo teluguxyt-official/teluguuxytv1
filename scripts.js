@@ -3,7 +3,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     const key = document.getElementById('key').value;
 
     // Simple authentication check (for demonstration purposes)
-    if (key === 'teluguxyt-day1') { // Replace 'your_secret_key' with your actual key
+    if (key === 'teluguxyt-v1') { // Replace 'your_secret_key' with your actual key
         localStorage.setItem('loggedIn', 'true');
         window.location.href = 'dashboard.html';
     } else {
