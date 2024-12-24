@@ -8,7 +8,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
         window.location.href = 'dashboard.html';
     } else {
         alert('Invalid key');
-        window.location.href = 'https://t.me/your_telegram_link'; // Replace with your Telegram link
+        window.location.href = '#'; // Replace with your Telegram link
     }
 });
 
